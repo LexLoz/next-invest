@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap');
 
 * {
     margin: 0;
     padding: 0;
-    font-weight: 400;
+    font-weight: 700;
 }
 
 body {
@@ -17,7 +17,6 @@ header {
     font-style: normal;
     font-weight: 700;
     padding: 1rem 8rem;
-    background-color: gray;
     font-size: 0.75rem;
     font-weight: 700;
     height: 2.5rem;
@@ -51,7 +50,6 @@ header ul li:nth-child(4) {
 }
 
 header ul li:nth-child(5) {
-    
     color: #F56B8D;
     background-color: white;
     border: 1px solid #F56B8D;
@@ -59,4 +57,71 @@ header ul li:nth-child(5) {
 
 header ul li:nth-child(4), header ul li:nth-child(5) {
     padding: 1rem 2rem;
+}
+
+#introduction {
+    background: url('../img/introduction-back.png') no-repeat;
+    background-size: contain;
+    height: 40rem;
+    font-family: 'Josefin Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    color: white;
+    text-align: center;
+}
+
+#blue-circle {
+    position: absolute;
+    top: 7rem;
+    left: 10rem;
+	width: 350px;
+	height: 350px;
+	background: #336de157;
+	-moz-border-radius: 175px;
+	-webkit-border-radius: 175px;
+	border-radius: 175px;
+}
+
+#introduction div p:nth-child(1), #introduction div p:nth-child(2), #introduction div p:nth-child(3) {
+    margin-left: 15rem;
+    text-align: left;
+}
+
+#introduction div:nth-child(2) {
+    padding-top: 10rem;
+}
+
+#introduction div p:nth-child(1) {
+    font-size: 2rem;
+    line-height: 40px;
+
+    width: 30rem;
+}
+
+#introduction div p:nth-child(2) {
+    font-size: 0.9rem;
+    line-height: 20px;
+    font-weight: 400;
+
+    width: 17rem;
+    
+    margin-top: 1.5rem;
+}
+
+#introduction div p:nth-child(3) {
+    display: block
+    ;
+    font-size: 0.6rem;
+
+    max-width: 9rem;
+    max-height: 10rem;
+
+    padding: 1rem 0.8rem;
+
+    margin-top: 1rem;
+
+    background-color: #128C76;
+
+    text-align: center;
+    vertical-align: middle;
 }
